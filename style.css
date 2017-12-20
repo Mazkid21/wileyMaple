@@ -1,0 +1,123 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen+Mono);
+
+/* Please Keep this font import at the very top of any CSS file */
+
+
+body {
+  background-color: black;
+  height: 100%;
+}
+
+body.bootstrap-overrides{
+  background-color: black;
+
+}
+
+
+#background {
+   background: url(assets/yd_dirt.jpg);
+   background-repeat: no-repeat
+   width 100%;
+   background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-position: center; 
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 600px;
+}
+
+.navbar-inverse .bootstrap-overrides {
+  background-color: black;
+ border-color: black;
+}
+
+.navbar-inverse .navbar-toggle .bootstrap-overrides {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar-inverse .navbar-toggle .icon-bar  .bootstrap-overrides{
+  background-color: white;
+}
+.navbar-inverse .navbar-nav .bootstrap-overrides>li>a {
+  color: white;
+}
+.navbar-inverse .navbar-brand  .bootstrap-overrides{
+  color: white;
+}
+
+.navbar-inverse  {
+  background-color: black;
+ border-color: black;
+}
+
+#nav-problem {
+  background-color: black;
+}
+
+.navbar-inverse .navbar-toggle  {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar-inverse .navbar-toggle .icon-bar  {
+  background-color: white;
+}
+.navbar-inverse .navbar-nav >li>a {
+  color: white;
+}
+.navbar-inverse .navbar-brand  {
+  color: white;
+}
+
+#navbar-brand-media {
+  color: white;
+}
+
+.social-tags {
+  width: 40px;
+  margin-top: 5px;
+
+}
+
+footer {
+  
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+.sponsors {
+  padding: 20px 20px;
+  flex-grow: 1;
+  width: 100%;
+  margin: 0px 0px;
+}
+
+#spons7{
+  padding-top: 15px;
+}
+
+.media-links{
+  text-align: center;
+  color: white;
+}
+
+
+.donate-video{
+  margin: auto;
+  padding: 0 25%;
+}
+
+.donate-letter{
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+  font-size: large;
+}
+
+.money-links {
+  color: red;
+  font-weight: bold;
+}
