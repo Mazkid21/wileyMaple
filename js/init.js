@@ -294,7 +294,7 @@ function edina_tm_nav_bg_scroll() {
 	var windowScroll = jQuery(window).scrollTop();
 	var W = jQuery(window).width();
 
-	if (W > 1040) {
+	if (W > 20) {
 		jQuery(window).scroll(function () {
 			if (windowScroll >= '100') {
 				header.addClass('scroll');

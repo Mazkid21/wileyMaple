@@ -370,7 +370,7 @@ img.svg {
 
 .edina_tm_trigger .hamburger-box {
 	width: 30px;
-	height: 18px;
+	/* height: 18px; */
 	display: inline-block;
 	position: relative;
 }
@@ -2383,7 +2383,7 @@ img.svg {
 
 	.edina_tm_navigation_wrap {
 		padding: 30px 0px;
-		background-color: rgba(0, 0, 0, .95);
+		/* background-color: rgba(0, 0, 0, .95); */
 	}
 
 	.edina_tm_list_wrap[data-column="4"] ul.total>li {
